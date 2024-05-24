@@ -1,7 +1,7 @@
 # Module-1-Smart-Contract-Project
 
 
-  Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms.It's used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system.
+SmartContractChester is a simple smart contract written in Solidity that allows for the storage, modification, and validation of a single unsigned integer value (storedData). The contract ensures that the value of storedData is always within a specified range (greater than 0 and less than 2000).
 
 # description 
 
