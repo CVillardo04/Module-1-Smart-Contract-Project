@@ -11,6 +11,13 @@ This contract is intended to guarantee that the stored value remains within a sa
 
 ### Executing program 
 
+. How to run the program
+. Step-by-step bullets
+
+. Open Remix IDE
+. Create a New File
+. Paste the Smart Contract Code
+
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.12 <0.9.0;
 
@@ -36,4 +43,9 @@ contract SmartContractChester {
         storedData -= ChesterY;
     }
 }
+
+. Compile the Contract
+. Deploy the Contract
+. Interact with the Deployed Contract
+
 
