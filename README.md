@@ -47,6 +47,12 @@ contract SmartContractChester {
     }
 }
 
+## Author 
+Chester Villardo
+8215358@ntc.edu.ph
+
+## License  
+ This project is licensed under the MIT  License - see the .README.mdfile for details
 . Compile the Contract
 
 . Deploy the Contract
