@@ -1,11 +1,11 @@
 # Module-1-Smart-Contract-Project
 
 
-SmartContractChester is a simple smart contract written in Solidity that allows for the storage, modification, and validation of a single unsigned integer value (storedData). The contract ensures that the value of storedData is always within a specified range (greater than 0 and less than 2000).
+SmartContractChester is a basic Solidity smart contract that stores, modifies, and validates a single unsigned integer value (storedData). The contract guarantees that the value of storedData is always within a given range (higher than zero and less than 2000).
 
 # description 
 
-This contract is designed to ensure that the stored value is always within a safe and expected range, and provides mechanisms to interact with and modify the value while maintaining these constraints.
+This contract is intended to guarantee that the stored value remains within a safe and anticipated range, and it includes means for interacting with and modifying the value while adhering to these limitations.
 
 # Getting Started
 
