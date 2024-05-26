@@ -47,7 +47,8 @@ This contract is intended to guarantee that the stored value remains within a sa
         }
         storedData -= ChesterY;
     }
-}
+    }
+
 
 . Compile the Contract
 
