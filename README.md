@@ -23,12 +23,11 @@ This contract is intended to guarantee that the stored value remains within a sa
 . Paste the Smart Contract Code
 
 
-// SPDX-License-Identifier: MIT
-pragma solidity >=0.6.12 <0.9.0;
+    // SPDX-License-Identifier: MIT
+    pragma solidity >=0.6.12 <0.9.0;
 
-contract SmartContractChester {
+    contract SmartContractChester {
     uint public storedData;
-
     constructor() {
         storedData = 0;
     }
