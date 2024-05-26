@@ -1,0 +1,33 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.12 <0.9.0;
+//Module 1 Smart Contract Project//
+//For this project, write a smart contract that implements the require(), assert() and revert() statements.//
+//The contract is named SmartContractChester.
+//It defines a state variable storedData of type uint (unsigned integer) which is publicly accessible, meaning anyone can read its value.//
+contract SmartContractChester {
+    uint public storedData;
+//The constructor initializes the storedData variable to 0.//
+    constructor() {
+        storedData = 0;
+    }
+//The require statements enforce that the input value ChesterX is greater than 0 and less than 2000, providing error messages if the conditions are not met.//
+    function setValueChester(uint ChesterX) public {
+        require(ChesterX > 0, "Value must be greater than zero");
+        require(ChesterX < 2000, "Value must be less than 2000");
+        storedData = ChesterX;
+    }
+//The assert statements ensure that storedData is greater than 0 and less than 2000. Unlike require, assert is used to test for internal errors and invariants. 
+//It should not be used for input validation because it consumes all gas if it fails and reverts the transaction.
+    function checkValueChester() public view {
+        assert(storedData > 0); // assert statements do not take a second argument
+        assert(storedData < 2000);
+    }
+//This function allows decrementing the value of storedData by ChesterY.
+//It uses an if statement to check if ChesterY is greater than storedData. If true, it reverts the transaction with an error message.//
+    function decrementValueChester(uint ChesterY) public {
+        if (ChesterY > storedData) {
+            revert("Value to decrement is greater than stored data");
+        }
+        storedData -= ChesterY;
+    }
+}
