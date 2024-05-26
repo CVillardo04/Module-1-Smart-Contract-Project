@@ -28,6 +28,7 @@ This contract is intended to guarantee that the stored value remains within a sa
 
     contract SmartContractChester {
     uint public storedData;
+    
     constructor() {
         storedData = 0;
     }
